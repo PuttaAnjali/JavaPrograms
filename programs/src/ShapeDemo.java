@@ -3,7 +3,7 @@ class Shape{
 		System.out.println("Drawing Shape");
 	}
 }
-class circle extends Shape{
+class circle3 extends Shape{
 	void draw() {
 		System.out.println("Drawing Circle");
 	}
@@ -20,7 +20,7 @@ class Triangle extends Shape{
 }
 public class ShapeDemo {
 	public static void main(String[] args) {
-		Shape[] shape= {new circle(),new Rectangle1(),new Triangle()};
+		Shape[] shape= {new circle3(),new Rectangle1(),new Triangle()};
 		for(Shape s: shape) {
 			s.draw();
 		}
